@@ -100,6 +100,12 @@ body {
   background-color: hsl(212, 21%, 14%);
 }
 
+.attribution {
+  padding-top: 55px;
+  font-size: 12px;
+  text-align: center;
+}
+
 @media only screen and (max-width: 550px)  {
   .card {
     margin-top: 1rem;
@@ -131,6 +137,10 @@ body {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 0px;
+  }
+  .attribution {
+    font-size: 8px;
+    padding-top: 5px;
   }
 
 }
