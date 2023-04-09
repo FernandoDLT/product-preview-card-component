@@ -3,9 +3,9 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-family: 'Fraunces', serif;
   background-color: hsl(30, 38%, 92%);
-  min-height: 100vh;
   display: flex;
   justify-content: center;
+  min-height: 100vh;
   align-items: center;
 }
 
@@ -81,6 +81,7 @@ body {
 }
 
 .details_container .btn {
+  font-family: "Montserrat";
   width: 100%;
   border: none;
   outline: none;
@@ -90,7 +91,6 @@ body {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  font-family: "Montserrat";
   padding: 1rem 2rem;
   border-radius: 10px;
   cursor: pointer;
@@ -102,11 +102,12 @@ body {
 
 .attribution {
   padding-top: 55px;
+  font-family: "Montserrat";
   font-size: 12px;
   text-align: center;
 }
 
-@media only screen and (max-width: 550px)  {
+@media only screen and (max-width: 550px) {
   .card {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -126,7 +127,7 @@ body {
   }
 
   .details_container {
-    width: 100%;    
+    width: 100%;
   }
 
   .details_container .name {
@@ -138,21 +139,10 @@ body {
     border-top-right-radius: 10px;
     border-bottom-left-radius: 0px;
   }
+
   .attribution {
     font-size: 8px;
     padding: 5px 0px 20px;
+    font-family: "Montserrat";
   }
-
 }
-
-
-        /* <style>.attribution {
-          font-size: 11px;
-          text-align: center;
-        }
-    
-        .attribution a {
-          color: hsl(228, 45%, 44%);
-        }
-        
-        </style>-->< !-- <div class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Your Name Here</a>. </div>--> */
